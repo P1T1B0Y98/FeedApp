@@ -1,0 +1,25 @@
+.poll-result {
+    text-align: center;
+    display: block;
+    margin-top: 200px;
+}
+
+.poll-result-form {
+    width: 100%;
+}
+
+
+.result-question{
+    height: 60px;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
+.result-question::placeholder {
+    color: #42B6F3;
+    text-align: center;
+    font-size: 30px;
+}

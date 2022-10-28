@@ -19,6 +19,7 @@ const App: Component = () => {
         <Route path="/polls/:id" element={<VotePage />} />
         <Route path="/profile/polls" element={<MyPollsPage />} />
         <Route path="/poll/create" element={<CreatePollPage />} />
+
       </Routes>
     </>
   );
