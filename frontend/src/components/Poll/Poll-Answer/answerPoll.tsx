@@ -1,25 +1,36 @@
 import "./answerPoll.css";
+import { SiJavascript } from "solid-icons/si";
+import { Icon } from "solid-heroicons";
+
+
+
 
 function AnswerPoll() {
     return (
+        
         <div class="trial">
             <div class="poll-answer">
                 <form class="poll-answer-form" action="">
-                    <h3 class="poll-question">Poll question here</h3>
+                    <div class ="all-elements">
+                    <h2 class="poll-question">Poll question here</h2>
 
-                    <form class="answer-div">
+                    
+                    <div class="radio-buttons">
                         <input  name="radio" type="radio" id="answer-yes"  value="Yes" ></input>
-                        <label for="answer-yes">1. Yes</label>
+                        <label for="answer-yes">Yes</label>
 
 
                         <input name="radio" type="radio" id="answer-no" value="No"></input>
-                        <label for="answer-no">2. No</label>
-                    </form>
+                        <label for="answer-no">No</label>
+                        </div>
+                        
+
 
 
                     <div class="text-and-button">
                         <p id="text"> xx overall votes  |  Time remaining: xx</p>
-                        <input class="submit-answer-btn" type="submit" value="Vote"></input>
+                        <input class="submit-answer-btn"  type="submit" value="Vote"></input>
+                    </div>
                     </div>
 
                 </form>

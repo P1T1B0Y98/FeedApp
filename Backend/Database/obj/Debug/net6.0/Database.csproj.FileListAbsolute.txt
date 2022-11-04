@@ -1,0 +1,17 @@
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Database.deps.json
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Database.runtimeconfig.json
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Database.dll
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\ref\Database.dll
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Database.pdb
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Domain.dll
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\bin\Debug\net6.0\Domain.pdb
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.csproj.CopyComplete
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.dll
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\ref\Database.dll
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.pdb
+C:\Users\malin\dat250_projects\FeedApp\Backend\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
