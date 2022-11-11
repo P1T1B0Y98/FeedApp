@@ -8,7 +8,7 @@
 - Postgresql
 
 ### Setting up Visual Studio
-Download [Visual Studio Community Edition](https://visualstudio.microsoft.com/). When installing you will be prompted to install extra features, I installed the  ASP.NET and web development pack but I believe you can skip this for now and only download the required dependencies in the next step.
+Download [Visual Studio Community Edition](https://visualstudio.microsoft.com/). When installing you will be prompted to install extra features, I installed the  ASP.NET and  web development pack but I believe you can skip this for now and only download the required dependencies in the next step.
 
 Select Open a project or solution (or clone a repository if you haven't already) and locate the FeedApp.sln file in the Backend folder and open it. If you try to run the project now you will get errors about missing dependencies. To fix this go to Tools -> NuGet Package Manager -> Package Manager Settings then click on Package Sources on the left. Press [+] and add `Name: nuget.org` and `Source: https://api.nuget.org/v3/index.json` and click ok. If you now try to run the program via the ▶️FeedApp button on the top toolbar it will install all required dependencies then launch. 
 
