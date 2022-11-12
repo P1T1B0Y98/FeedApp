@@ -4,9 +4,6 @@ import { useNavigate } from '@solidjs/router';
 import axios from 'axios';
 import { Component, createEffect, createResource, createSignal } from 'solid-js';
 
-
-
-
 function SearchIoTDevice (){
     
     const navigate = useNavigate();
@@ -16,10 +13,10 @@ function SearchIoTDevice (){
     }
 
     const handleSubmit = async () => {
-            const res = await axios.get(`https://localhost:7280/api/IoT/${id()}`);
-            const data = await res.data;
-            setIot_device(data);
-            navigate('/id');
+        console.log(import.meta.env.VITE_BASE_URL)
+        const data = (await axios.get(`${import.meta.env.VITE_BASE_URL}IoT/${id()}`)).data;
+        setIot_device(data);
+        navigate('/id');
     }
 
     return (
