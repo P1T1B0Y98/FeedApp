@@ -1,7 +1,13 @@
+.poll-answer {
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+
 .poll-result {
     text-align: center;
     display: block;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .poll-result-form {
@@ -19,46 +25,28 @@
 
 }
 
-.container-result {
-    background-color: black;
-    width: 100%;
-    border-radius: 12px;
-}
-
-.result {
-    background-color: #256CE2;
-    margin-bottom:20px;
-    color: white;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-        border-radius: 12px;
-}
-
-.yes {
-    width: attr(data-width px);
+.radio-buttons {
+    margin-bottom: 4rem;
 
 }
 
-.no {
-    width: 60%;
-}
-
-
-
-.submit-answer-btn {
-    background-color: #42B6F3;
-    color: white;
-    border: none;
-    /* padding: 20px; */
-    padding: 9px 45px 9px 45px;
-    text-align: center;
-    text-decoration: none;
+.container-result label{
     display: inline-block;
-    font-size: 25px;
-    margin: 4px 2px;
-    border-radius: 8px;
-    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    transition: all 0.3s;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom:20px;
+
+
+}
+
+.container-result input[type="radio"] {
+    display: none;
+    background-color: black;
 }
 
 
@@ -79,3 +67,15 @@ left: 80%;
  
 
 }
+
+
+.container-result {
+    background-color: black;
+    width: 100%;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding:10px;
+}
+
